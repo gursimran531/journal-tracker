@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-journaltracker-dev-df345-authRole",
+      "UnauthRoleArn": "arn:aws:iam::682033499342:role/amplify-journaltracker-dev-df345-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::682033499342:role/amplify-journaltracker-dev-df345-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-journaltracker-dev-df345-deployment",
+      "UnauthRoleName": "amplify-journaltracker-dev-df345-unauthRole",
+      "StackName": "amplify-journaltracker-dev-df345",
+      "StackId": "arn:aws:cloudformation:us-east-1:682033499342:stack/amplify-journaltracker-dev-df345/0e5ee960-09e4-11f0-b206-12f19b34de95",
+      "AmplifyAppId": "dnqcz8m4lvr15"
+    },
+    "categories": {
+      "api": {
+        "journaltracker": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

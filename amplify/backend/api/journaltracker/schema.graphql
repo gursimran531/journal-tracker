@@ -1,0 +1,7 @@
+type JournalEntry @model {
+  id: ID!
+  date: AWSDate!
+  mood: String!
+  content: String!
+}
+
