@@ -1,9 +1,13 @@
-import React from 'react';
+// src/components/ui/Button.js
+import React from "react";
 
-export const Card = ({ children, className }) => {
-  return <div className={`shadow-lg p-4 rounded-lg ${className}`}>{children}</div>;
+const Button = ({ onClick, children, className }) => {
+  return (
+    <button onClick={onClick} className={`px-4 py-2 rounded-lg ${className}`}>
+      {children}
+    </button>
+  );
 };
 
-export const CardContent = ({ children }) => {
-  return <div>{children}</div>;
-};
+export { Button }; // Ensure the Button is exported
+
